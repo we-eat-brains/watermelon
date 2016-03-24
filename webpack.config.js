@@ -12,5 +12,8 @@ module.exports = {
     path: BUILD_PATH,
     publicPath: '/',
     filename: 'bundle.js'
+  },
+  devServer: {
+    contentBase: BUILD_PATH
   }
 };
