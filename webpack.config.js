@@ -1,4 +1,5 @@
 var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var ROOT_PATH = path.resolve(__dirname);
 var APP_PATH = path.resolve(ROOT_PATH, 'src');
@@ -25,5 +26,6 @@ module.exports = {
   },
   devServer: {
     contentBase: BUILD_PATH
-  }
+  },
+  plugins: [new HtmlWebpackPlugin()]
 };
