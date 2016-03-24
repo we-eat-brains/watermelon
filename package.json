@@ -1,0 +1,11 @@
+{
+  "name": "leggo-client",
+  "version": "0.0.1",
+  "description": "The web application for Leggo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dario Ghilardi",
+  "license": "Copyright 2016 Webrain. All rights reserved."
+}
