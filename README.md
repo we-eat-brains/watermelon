@@ -18,6 +18,13 @@ Launch the server with hot loading using:
 webpack-dev-server --port 8080 --hot --host 0.0.0.0
 ```
 
+If the application runs on a virtual machine, it's convenient to set the environment variable HOST, otherwise the websocket client won't connect to the server.  
+You can check the output in your browwser console to see if it happens.
+
+```
+HOST="edev" webpack-dev-server --port 8080 --hot --host 0.0.0.0
+```
+
 You can run tests using:
 ```
 npm run test
