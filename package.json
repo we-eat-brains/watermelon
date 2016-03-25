@@ -1,7 +1,7 @@
 {
   "name": "watermelon",
   "version": "0.0.1",
-  "description": "A client-side redux based web application template.",
+  "description": "A redux based web application template for SPAs.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js \"test/**/*@(.js|.jsx)\"",
