@@ -22,6 +22,7 @@ It depends on the following packages:
 - [Webpack](http://webpack.github.io/) to build the project, with [webpack-dev-server](https://github.com/webpack/webpack-dev-server).
 - [Html Webpack Plugin](https://github.com/ampedandwired/html-webpack-plugin) to automatically create a main html page with the correct requires from webpack.
 - [style-loader](https://github.com/webpack/style-loader), [sass-loader](https://github.com/jtangelder/sass-loader) and [css-loader](https://github.com/webpack/css-loader) to process stylesheets.
+- [file-loader](https://github.com/webpack/file-loader) and [url-loader](https://github.com/webpack/url-loader) to load assets.
 - [Mocha](https://mochajs.org/) as testing library.
 - [Chai](http://chaijs.com/) as assertion library for tests, with the [chai-immutable](https://github.com/astorije/chai-immutable) plugin.
 - [jsdom](https://github.com/tmpvar/jsdom), which is a javascript implementation of the DOM to be used on nodejs. Very useful to test components.
