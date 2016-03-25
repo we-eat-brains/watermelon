@@ -1,6 +1,8 @@
-# Watermelon :watermelon:
+# Watermelon
 
-A redux based web application template for SPAs.
+![Watermelon Logo](src/assets/logo.png?raw=true "Watermelon logo")
+
+A redux based web application template for SPAs. **Currently a work in progress.**
 
 ## Rationale
 
@@ -56,3 +58,7 @@ npm run test:watch
 ## Contributing
 
 We welcome feedbacks and pull requests.
+
+## Credits
+
+Watermelon logo comes from [here](http://publicdomainvectors.org/en/free-clipart/Watermelon-and-slice-vector-image/16549.html).
